@@ -8,6 +8,5 @@ Takes 4 values through commandline.
 - Enhanced Pointer Precision.
 
 When enhanced Pointer Precision is false(0), threshold1 and threshold2 is ignored.
-Through the GUI, threshold1 and threshold2 are 6 and 10 respectively, and unless you want to test around, these values are recommended.
-I typically just run this program through the attached batch file.
-Because I'm not so comfortable with the track ball,  I use enhanced pointer precision with track ball (mctb.bat) and I typically game with mouse so (mcm.bat) has enhanced pointer precision off.
+When ehnaced pointer precision is enabled through mouse configuration GUI, threshold1 and threshold2 are set to 6 and 10 respectively.  I am not fully aware how this value works.
+I typically run this program through the attached batch file, which is config I use for track ball(mctb) and mouse(mcm).
