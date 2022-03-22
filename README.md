@@ -15,4 +15,4 @@ Below is how the two threshold works (taken from https://docs.microsoft.com/en-u
 - When enhanced pointer precision is disabled(0), threshold1 and threshold2 is ignored.
 - When ehnaced pointer precision is enabled(1) through mouse configuration GUI, threshold1 and threshold2 are set to 6 and 10 respectively.  
 
-I typically run this program through the attached batch file, which is config I use for track ball(mctb) and mouse(mcm).
+I typically run this program through the attached batch file in the release.  One is the config I use for track ball(mctb) and other is for the mouse(mcm).
