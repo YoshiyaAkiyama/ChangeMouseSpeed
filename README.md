@@ -13,6 +13,7 @@ Enabling Enhanced Pointer Precision will cause mouse cursor to travel more pixel
 Below is how the two threshold works (taken from https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-mouse_event)
 - The system applies two tests to the specified relative mouse motion when applying acceleration. If the specified distance along either the x or y axis is greater than the first mouse threshold value, and the mouse acceleration level is not zero, the operating system doubles the distance. If the specified distance along either the x- or y-axis is greater than the second mouse threshold value, and the mouse acceleration level is equal to two, the operating system doubles the distance that resulted from applying the first threshold test. It is thus possible for the operating system to multiply relatively-specified mouse motion along the x- or y-axis by up to four times.
 - When enhanced pointer precision is disabled(0), threshold1 and threshold2 is ignored.
-- When ehnaced pointer precision is enabled(1) through mouse configuration GUI, threshold1 and threshold2 are set to 6 and 10 respectively.  
+
+Threshold1 and threshold2 are set to 6 and 10 respectively when configured from mouse config GUI.
 
 I typically run this program through the attached batch file in the release.  One is the config I use for track ball(mctb) and other is for the mouse(mcm).
