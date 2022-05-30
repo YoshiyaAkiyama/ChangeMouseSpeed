@@ -1,7 +1,7 @@
 #include <iostream>
 #include <windows.h>
 #include <string> 
-#include<winuser.h>
+#include <winuser.h>
 #pragma comment(lib, "user32.lib")
 
 using namespace std;
